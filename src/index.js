@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Primeiro from './components/basicos/Primeiro';
+import ComParametro from './components/basicos/ComParametro';
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Primeiro />
+
+    <ComParametro 
+      titulo="Situação do Aluno"
+      aluno="Carlos Pareira" nota={6.2}
+    />
   </React.StrictMode>
 );
 
