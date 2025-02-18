@@ -1,0 +1,5 @@
+.App .Cards {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+}

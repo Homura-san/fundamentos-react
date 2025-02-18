@@ -3,7 +3,8 @@ import React from "react";
 function Primeiro() {
   return (
     <React.Fragment key="2">
-      <h1>Escola de React</h1>
+      <h1>Primeiro Componente</h1>
+      <h1>Seja bem-vindo!</h1>
     </React.Fragment>
   );
 }
