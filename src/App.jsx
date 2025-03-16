@@ -6,13 +6,18 @@ import Aleatorio from "./components/basicos/Aleatorio";
 import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import Card from './components/layouts/Card';
+import ListaAlunos from "./components/repeticao/ListaAlunos";
 
 // Sintaxe de função mais reduzida possível
 
 export default _ =>
     <div className="App">
         <div className="Cards">
-        <Card titulo="#05 - Componente com Filhos" color="#00C8F8">
+            <Card titulo="#06 - Repetição" color="#3A9AD9">
+                <ListaAlunos />
+            </Card>
+
+            <Card titulo="#05 - Componente com Filhos" color="#00C8F8">
                 <Familia sobrenome="Silva">
                     <FamiliaMembro nome="Pedro" />
                     <FamiliaMembro nome="Ana" />
