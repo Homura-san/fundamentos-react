@@ -7,12 +7,17 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import Card from './components/layouts/Card';
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProduto from "./components/repeticao/TabelaProduto";
 
 // Sintaxe de função mais reduzida possível
 
 export default _ =>
     <div className="App">
         <div className="Cards">
+            <Card titulo="#07 - Desafio Repetição" color="#FF432E">
+                <TabelaProduto />
+            </Card>
+
             <Card titulo="#06 - Repetição" color="#3A9AD9">
                 <ListaAlunos />
             </Card>
