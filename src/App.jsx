@@ -8,11 +8,16 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import Card from './components/layouts/Card';
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProduto from "./components/repeticao/TabelaProduto";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 
 // Sintaxe de função mais reduzida possível
 
 export default _ =>
     <div className="App">
+        <Card titulo="#08 - Renderização Opcional" color="#982395">
+                <ParOuImpar numero={21} />
+            </Card>
+        
         <div className="Cards">
             <Card titulo="#07 - Desafio Repetição" color="#FF432E">
                 <TabelaProduto />
