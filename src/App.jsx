@@ -9,6 +9,7 @@ import Card from './components/layouts/Card';
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProduto from "./components/repeticao/TabelaProduto";
 import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 
 // Sintaxe de função mais reduzida possível
 
@@ -16,6 +17,9 @@ export default _ =>
     <div className="App">
         <Card titulo="#08 - Renderização Opcional" color="#982395">
                 <ParOuImpar numero={21} />
+                <UsuarioInfo usuario={{ nome: 'Carlos' }} />
+                <UsuarioInfo usuario={{}} />
+                <UsuarioInfo usuario={{ email: 'carl@email.com' }} />
             </Card>
         
         <div className="Cards">
