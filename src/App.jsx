@@ -18,8 +18,8 @@ export default _ =>
         <Card titulo="#08 - Renderização Opcional" color="#982395">
                 <ParOuImpar numero={21} />
                 <UsuarioInfo usuario={{ nome: 'Carlos' }} />
-                <UsuarioInfo usuario={{}} />
-                <UsuarioInfo usuario={{ email: 'carl@email.com' }} />
+                {/* <UsuarioInfo usuario={{}} />
+                <UsuarioInfo usuario={{ email: 'carl@email.com' }} /> */}
             </Card>
         
         <div className="Cards">
