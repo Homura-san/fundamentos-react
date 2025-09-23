@@ -10,18 +10,23 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProduto from "./components/repeticao/TabelaProduto";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
 
 // Sintaxe de função mais reduzida possível
 
 export default _ =>
     <div className="App">
+        <Card titulo="#09 - Comunicação Direta" color="#59323C">
+            <DiretaPai></DiretaPai>
+        </Card>
+
         <Card titulo="#08 - Renderização Opcional" color="#982395">
-                <ParOuImpar numero={21} />
-                <UsuarioInfo usuario={{ nome: 'Carlos' }} />
-                {/* <UsuarioInfo usuario={{}} />
+            <ParOuImpar numero={21} />
+            <UsuarioInfo usuario={{ nome: 'Carlos' }} />
+            {/* <UsuarioInfo usuario={{}} />
                 <UsuarioInfo usuario={{ email: 'carl@email.com' }} /> */}
-            </Card>
-        
+        </Card>
+
         <div className="Cards">
             <Card titulo="#07 - Desafio Repetição" color="#FF432E">
                 <TabelaProduto />
