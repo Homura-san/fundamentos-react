@@ -11,11 +11,17 @@ import TabelaProduto from "./components/repeticao/TabelaProduto";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
+
 
 // Sintaxe de função mais reduzida possível
 
 export default _ =>
     <div className="App">
+        <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
+            <IndiretaPai></IndiretaPai>
+        </Card>
+
         <Card titulo="#09 - Comunicação Direta" color="#59323C">
             <DiretaPai></DiretaPai>
         </Card>
