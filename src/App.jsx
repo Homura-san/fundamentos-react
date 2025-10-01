@@ -20,8 +20,8 @@ import Mega from "./components/mega/Mega";
 
 export default _ =>
     <div className="App">
-        <Card titulo="#13 - Desafio Mega" color="#424242">
-            <Mega></Mega>
+        <Card titulo="#13 - Desafio Mega" color="#B9006E">
+            <Mega qtde={8}></Mega>
         </Card>
 
         <Card titulo="#12 - Contador" color="#424242">
